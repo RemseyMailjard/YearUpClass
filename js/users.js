@@ -170,7 +170,7 @@ let students = [
     imageurl: "https://media.licdn.com/dms/image/C5603AQHCS9pI_VLNZQ/profile-displayphoto-shrink_800_800/0/1634626091348?e=1720656000&v=beta&t=GgD0cMSHbOwXtLXvKnhmQFg57BFgomFovZXPY28b14Q",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: 35
+    currentlyWorkingOn: 48
   },
   {
     name: "Rene Banuelos",
