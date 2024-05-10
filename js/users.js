@@ -10,6 +10,7 @@ let students = [
     gender: "male",
     devices: "MAC",
     xp: 0,
+    page: "",
     currentlyWorkingOn: 20,
   },
   {
@@ -22,20 +23,21 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=The%20Woodchuck",
     gender: "male",
     xp: 0,
+    page: "",
     currentlyWorkingOn: 30,
   },
   {
     name: "Guadalupe Argumedo Saucedo",
     group: "App Dev Team",
     github: "https://github.com/GuadalupeArgumedoSaucedo",
-    linkedin:
-      "https://www.linkedin.com/in/guadalupe-argumedo-saucedo-2b63b8303/",
+    linkedin: "https://www.linkedin.com/in/guadalupe-argumedo-saucedo-2b63b8303/",
     email: "gargumedosaucedo@appdev.yearup.org",
     nickname: "CodeLupe",
     imageurl: "https://fakeimg.pl/600x400?text=CodeLupe",
     gender: "female",
     devices: "MAC",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -48,6 +50,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=JSJ%20(JavaScript%20Jaranesca)",
     gender: "female",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -61,6 +64,7 @@ let students = [
     devices: "MAC",
     gender: "male",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -73,6 +77,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=leetheMrE",
     gender: "female",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -85,6 +90,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=the%20connoisseur",
     gender: "female",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -97,6 +103,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=Agent%20K",
     gender: "female",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -109,6 +116,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=The%20ScriptSiren",
     gender: "female",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -121,6 +129,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=reference%20error",
     gender: "male",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -133,7 +142,8 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400/fc8dd7/fad2e8?text=monce+so+swag",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: "Page 32",
+    page: "/moncerrat.html",
+    currentlyWorkingOn: 32,
   },
   {
     name: "Niran Abdulqader",
@@ -145,6 +155,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=Techie%20Diva",
     gender: "female",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -157,6 +168,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=Cyber%20Samurai",
     gender: "male",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -169,6 +181,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=Sabritron",
     gender: "female",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -181,6 +194,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=YaBoiUri",
     gender: "male",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -193,6 +207,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=Victorious%20Victor",
     gender: "male",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -205,6 +220,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=Mailjard%20the%20Magnificent",
     gender: "male",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
 ];
