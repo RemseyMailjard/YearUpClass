@@ -2,45 +2,89 @@ document.addEventListener("DOMContentLoaded", function () {
   const userCardsContainer = document.getElementById("user-cards");
   const nameFilterInput = document.getElementById("nameFilter");
   const searchButton = document.getElementById("searchButton");
+  const sortAscButton = document.getElementById("sortAsc");
+  const sortDescButton = document.getElementById("sortDesc");
+  const sortAscPointButton = document.getElementById("sortWorkingOn");
+  const sortDescPointButton = document.getElementById("sortLowest");
 
-  function createUserCards(users) {
+  function sortByNameAsc(users) {
+    return users.sort((a, b) => a.name.localeCompare(b.name));
+  }
+
+  function sortByNameDesc(users) {
+    return users.sort((a, b) => b.name.localeCompare(a.name));
+  }
+
+  function sortByPointAsc(users) {
+    return users.sort((a, b) => a.currentlyWorkingOn - b.currentlyWorkingOn);
+  }
+
+  function sortByPointDesc(users) {
+    return users.sort((a, b) => b.currentlyWorkingOn - a.currentlyWorkingOn);
+  }
+
+  function createUserCards(users, sortOrder) {
     userCardsContainer.innerHTML = ""; // Clear existing cards
+
+    switch (sortOrder) {
+      case "asc":
+        users = sortByNameAsc(users);
+        break;
+      case "desc":
+        users = sortByNameDesc(users);
+        break;
+      case "pointsasc":
+        users = sortByPointAsc(users);
+        break;
+      case "pointsdesc":
+        users = sortByPointDesc(users);
+        break;
+    }
+
     users.forEach((user) => {
       const card = document.createElement("div");
       card.className = "col-md-4 mb-4";
       card.innerHTML = `
-<div class="card">
-    <img src="${user.imageurl}" class="card-img-top" alt="Profile image of ${user.name}">
-    <div class="card-body">
-        <h5 class="card-title">${user.name}</h5>
-        <p class="card-text">${user.nickname}</p>
-        <p class="card-text"><strong>XP Points:</strong> ${user.xp}</p>
-        <p class="card-text"><strong>Currently Working On:</strong> ${user.currentlyWorkingOn}</p>
-        <a href="${user.github}" target="_blank" class="btn btn-success">GitHub</a>
-        <a href="${user.linkedin}" target="_blank" class="btn btn-danger">Website</a>
-        <a href="${user.linkedin}" target="_blank" class="btn btn-info">LinkedIn</a>
-        <a href="mailto:${user.email}?subject=Hi%20${user.name}&body=Hi%20${user.name}" class="btn btn-primary"><i class="bi bi-envelope"></i> Email</a> </div>
-</div>
-`;
+        <div class="card">
+          <img src="${user.imageurl}" class="card-img-top" alt="Profile image of ${user.name}">
+          <div class="card-body">
+            <h5 class="card-title">${user.name}</h5>
+            <p class="card-text">${user.nickname}</p>
+            <p class="card-text"><strong>XP Points:</strong> ${user.xp}</p>
+            <p class="card-text"><strong>Currently Working On:</strong> ${user.currentlyWorkingOn}</p>
+            <a href="${user.github}" target="_blank" class="btn btn-success">GitHub</a>
+            <a href="${user.linkedin}" target="_blank" class="btn btn-danger">Website</a>
+            <a href="${user.linkedin}" target="_blank" class="btn btn-info">LinkedIn</a>
+            <a href="mailto:${user.email}?subject=Hi%20${user.name}&body=Hi%20${user.name}" class="btn btn-primary"><i class="bi bi-envelope"></i> Email</a>
+          </div>
+        </div>`;
       userCardsContainer.appendChild(card);
     });
   }
 
+  sortAscButton.addEventListener("click", function () {
+    createUserCards(students, "asc");
+  });
+
+  sortDescButton.addEventListener("click", function () {
+    createUserCards(students, "desc");
+  });
+
+  sortAscPointButton.addEventListener("click", function () {
+    createUserCards(students, "pointsasc");
+  });
+
+  sortDescPointButton.addEventListener("click", function () {
+    createUserCards(students, "pointsdesc");
+  });
+
   function updateXP(students) {
     students.forEach((student) => {
-      // Check and parse 'currentlyWorkingOn' assuming it contains just the page number
       let pageNumber = parseInt(student.currentlyWorkingOn);
-      if (!isNaN(pageNumber)) {
-        // Check if the pageNumber is a valid number
-        student.xp = 10 * Math.pow(2, pageNumber);
-      } else {
-        student.xp = 0; // Default to 0 if not a valid number
-      }
+      student.xp = !isNaN(pageNumber) ? 10 * Math.pow(2, pageNumber) : 0;
     });
   }
-  // Call the function to update XP based on the current page number
-  updateXP(students);
-  // Function to filter users based on input
+
   function filterUsers() {
     const filterValue = nameFilterInput.value.toLowerCase();
     const filteredData = students.filter(
@@ -49,18 +93,13 @@ document.addEventListener("DOMContentLoaded", function () {
         student.nickname.toLowerCase().includes(filterValue) ||
         student.group.toLowerCase().includes(filterValue)
     );
-    createUserCards(filteredData);
+    createUserCards(filteredData, "asc");
   }
 
-  // Initially load all users
-  createUserCards(students);
+  updateXP(students);
+  createUserCards(students, "asc");
 
-  // Add event listener to the search button
-  searchButton.addEventListener("click", function () {
-    filterUsers(); // Call filterUsers function on click
-  });
-
-  // Optionally, you can also trigger filtering with the Enter key
+  searchButton.addEventListener("click", filterUsers);
   nameFilterInput.addEventListener("keyup", function (event) {
     if (event.key === "Enter") {
       filterUsers();
