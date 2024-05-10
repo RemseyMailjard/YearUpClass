@@ -262,6 +262,6 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400/c97d7d/e7e5e8?text=Andrea&font=lobster",
     gender: "Female",
     xp: 0,
-    currentlyWorkingOn: "Page 48",
+    currentlyWorkingOn: "Page 48"
   }
 ];
