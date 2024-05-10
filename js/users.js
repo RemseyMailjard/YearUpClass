@@ -1,6 +1,7 @@
 let students = [
   {
     name: "Alfi Ali",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/ALFI-ALI",
     linkedin: "https://www.linkedin.com/in/alfi-ali-015506225/",
@@ -14,6 +15,7 @@ let students = [
   },
   {
     name: "Abdikadir Samatar",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/abdikadirsamatar",
     linkedin: "https://www.linkedin.com/in/abdikadir-samatar/",
@@ -27,6 +29,7 @@ let students = [
   },
   {
     name: "Dante 'Donny' Angerame",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/DanteAngerame",
     linkedin: "https://www.linkedin.com/in/dante-angerame-739899192/",
@@ -39,6 +42,7 @@ let students = [
   },
   {
     name: "Guadalupe Argumedo Saucedo",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/GuadalupeArgumedoSaucedo",
     linkedin:
@@ -52,6 +56,7 @@ let students = [
   },
   {
     name: "Jaranesca Braker",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/jaranesca",
     linkedin: "https://www.linkedin.com/in/jaranesca-braker-227810253/",
@@ -64,6 +69,7 @@ let students = [
   },
   {
     name: "Jesús Mimila",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/JesusMimilaHurtado",
     linkedin: "https://www.linkedin.com/in/jesus-mimils-435b32274/",
@@ -77,6 +83,7 @@ let students = [
   },
   {
     name: "Kaaliyah Gray (Mac)",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/KaaliyahGray",
     linkedin: "https://www.linkedin.com/in/kaaliyahgray-b03281237",
@@ -89,6 +96,7 @@ let students = [
   },
   {
     name: "Kadiatou Barry (Mac)",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/kadylius/kadi-barry",
     linkedin: "https://www.linkedin.com/in/kadiatou-barry-a57bb8235/",
@@ -101,6 +109,7 @@ let students = [
   },
   {
     name: "Kayla Hanifen (Mac)",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/KaylaEHanifen",
     linkedin: "https://www.linkedin.com/in/kehanifen",
@@ -113,6 +122,7 @@ let students = [
   },
   {
     name: "Leslie Alvarado (Mac)",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/LeslieAlvarado1",
     linkedin: "https://www.linkedin.com/in/leslie-alvarado-connect/",
@@ -125,6 +135,7 @@ let students = [
   },
   {
     name: "Maximo Mayo",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/MaximoMayo",
     linkedin: "https://www.linkedin.com/in/maximo-mayo-a2ba10252/",
@@ -137,6 +148,7 @@ let students = [
   },
   {
     name: "Moncerrat Lua Salas",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/MoncerratLuaSalas",
     linkedin: "https://www.linkedin.com/in/moncerrat-lua-salas/",
@@ -149,6 +161,7 @@ let students = [
   },
   {
     name: "Niran Abdulqader",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/NiranAbdulqader",
     linkedin: "https://www.linkedin.com/in/niran-abdulqader-/",
@@ -161,6 +174,7 @@ let students = [
   },
   {
     name: "Rene Banuelos",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/ReneBA1999",
     linkedin: "https://www.linkedin.com/in/rene-banuelos-1881b52a2",
@@ -173,6 +187,7 @@ let students = [
   },
   {
     name: "Sabrina Robles",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/SabrinaRobles",
     linkedin: "https://www.linkedin.com/in/sabrinarobles/",
@@ -185,6 +200,7 @@ let students = [
   },
   {
     name: "Uriel Delgado",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/UrielDelgado",
     linkedin: "https://www.linkedin.com/in/uriel-delgado-3a49622bb/",
@@ -197,6 +213,7 @@ let students = [
   },
   {
     name: "Victor Castaneda",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/Victor-Castaneda",
     linkedin: "https://www.linkedin.com/in/victor-castaneda/",
@@ -209,6 +226,7 @@ let students = [
   },
   {
     name: "Remsey Mailjard",
+    page: "",
     group: "IT Solutions Group",
     github: "https://github.com/RemseyMailjard",
     linkedin: "https://www.linkedin.com/in/remseymailjard/",
@@ -216,12 +234,13 @@ let students = [
     nickname: "Mailjard the Magnificent",
     imageurl: "https://fakeimg.pl/600x400?text=Mailjard%20the%20Magnificent",
     gender: "male",
-    xp: 0,
+    xp: 0, 
     currentlyWorkingOn: "Page nr"
   },
   {
 
     name: "Daniel Solar",
+    page: "/dsolar.html",
     group: "App Dev Team",
     github: "https://github.com/1DanielSolar",
     linkedin: "https://www.linkedin.com/in/daniel-solar-464357300/",
@@ -234,6 +253,7 @@ let students = [
   },
   {
     name: "Andrea Ceballos",
+    page: "",
     group: "App Dev Team",
     github: "https://github.com/iraryc",
     linkedin: "https://www.linkedin.com/in/andrea-irary/",
