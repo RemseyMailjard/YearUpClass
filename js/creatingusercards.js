@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     <img src="${user.imageurl}" class="card-img-top" alt="Profile image of ${user.name}">
     <div class="card-body">
         <h5 class="card-title">${user.name}</h5>
-        <p class="card-text">${user.group}</p>
+        <p class="card-text">${user.nickname}</p>
         <p class="card-text"><strong>XP Points:</strong> ${user.xp}</p>
         <p class="card-text"><strong>Currently Working On:</strong> ${user.currentlyWorkingOn}</p>
         <a href="${user.github}" target="_blank" class="btn btn-success">GitHub</a>
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
       let pageNumber = parseInt(student.currentlyWorkingOn);
       if (!isNaN(pageNumber)) {
         // Check if the pageNumber is a valid number
-        student.xp = pageNumber * 10;
+        student.xp = 10 * Math.pow(2, pageNumber);
       } else {
         student.xp = 0; // Default to 0 if not a valid number
       }

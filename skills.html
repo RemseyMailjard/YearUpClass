@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Students</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body onload="setup()">
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="home.html">IT-Training Company</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="icebreaker.html"></a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="courses.html">Courses</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+
+                </ul>
+                <div class="navbar-text">
+                    <p class="mb-0">Phoenix, AZ: <span id="phoenixTime"></span></p>
+                    <p class="mb-0">Netherlands: <span id="netherlandsTime"></span></p>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="text-center mb-4">Skills Assessment</h1>
+        <div class="mb-3">
+            <input type="text" id="userName" class="form-control" placeholder="Enter your name">
+        </div>
+        <form id="skillsForm">
+            <h3>HTML Skills</h3>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="htmlSkills" value="basicStructure"
+                    id="basicStructure">
+                <label class="form-check-label" for="basicStructure">Understand basic HTML structure</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="htmlSkills" value="textElements"
+                    id="textElements">
+                <label class="form-check-label" for="textElements">Create and format text elements (headings,
+                    paragraphs, etc.)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="htmlSkills" value="links" id="links">
+                <label class="form-check-label" for="links">Embed links (&lt;a&gt; tags)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="htmlSkills" value="images" id="images">
+                <label class="form-check-label" for="images">Embed images (&lt;img&gt; tags)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="htmlSkills" value="lists" id="lists">
+                <label class="form-check-label" for="lists">Use lists (&lt;ul&gt;, &lt;ol&gt;, &lt;li&gt;)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="htmlSkills" value="tables" id="tables">
+                <label class="form-check-label" for="tables">Create tables (&lt;table&gt;, &lt;tr&gt;,
+                    &lt;td&gt;)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="htmlSkills" value="forms" id="forms">
+                <label class="form-check-label" for="forms">Implement forms (&lt;form&gt;, &lt;input&gt;,
+                    &lt;textarea&gt;)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="htmlSkills" value="semanticTags"
+                    id="semanticTags">
+                <label class="form-check-label" for="semanticTags">Use semantic tags (&lt;header&gt;, &lt;footer&gt;,
+                    &lt;article&gt;)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="htmlSkills" value="iframes" id="iframes">
+                <label class="form-check-label" for="iframes">Implement iframes for embedded content</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="htmlSkills" value="metaTags" id="metaTags">
+                <label class="form-check-label" for="metaTags">Optimize using meta tags and SEO</label>
+            </div>
+
+            <h3>CSS Skills</h3>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="cssSkills" value="basicStyles" id="basicStyles">
+                <label class="form-check-label" for="basicStyles">Apply basic styles (color, font, background)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="cssSkills" value="selectors" id="selectors">
+                <label class="form-check-label" for="selectors">Understand CSS selectors and specificity</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="cssSkills" value="flexbox" id="flexbox">
+                <label class="form-check-label" for="flexbox">Use layout techniques like Flexbox</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="cssSkills" value="grid" id="grid">
+                <label class="form-check-label" for="grid">Use CSS Grid</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="cssSkills" value="textStyles" id="textStyles">
+                <label class="form-check-label" for="textStyles">Style text and fonts (font-family, font-size,
+                    text-align)</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="cssSkills" value="transitions" id="transitions">
+                <label class="form-check-label" for="transitions">Implement transitions and animations</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="cssSkills" value="mediaQueries" id="mediaQueries">
+                <label class="form-check-label" for="mediaQueries">Create responsive designs with media queries</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="cssSkills" value="pseudoClasses"
+                    id="pseudoClasses">
+                <label class="form-check-label" for="pseudoClasses">Utilize pseudo-elements and pseudo-classes</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="cssSkills" value="cssVariables" id="cssVariables">
+                <label class="form-check-label" for="cssVariables">Implement CSS variables for reusability</label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="cssSkills" value="externalLibraries"
+                    id="externalLibraries">
+                <label class="form-check-label" for="externalLibraries">Work with external CSS libraries (Bootstrap,
+                    Tailwind)</label>
+            </div>
+
+            <h3>JavaScript Skills</h3>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="jsSkills" value="variables" id="variables">
+                <label class="form-check-label" for="variables">Declare variables and understand data types</label>
+            </div>
+            <!-- Repeat for other JavaScript skills as above structure -->
+
+            <button type="button" id="saveButton" class="btn btn-primary">Save Progress</button>
+        </form>
+
+        <div class="mb-3">
+            <textarea id="htmlImprovement" class="form-control"
+                placeholder="HTML: Specific topics or concepts where you feel less confident." rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <textarea id="cssImprovement" class="form-control"
+                placeholder="CSS: Specific topics or concepts where you feel less confident." rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <textarea id="jsImprovement" class="form-control"
+                placeholder="JavaScript: Specific topics or concepts where you feel less confident."
+                rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <textarea id="bootstrapImprovement" class="form-control"
+                placeholder="Bootstrap: Specific topics or concepts where you feel less confident." rows="3"></textarea>
+        </div>
+        <button type="button" id="saveImprovementButton" class="btn btn-primary">Save Improvement Areas</button>
+    </div>
+
+    <script src="js/script.js"></script>
+
+
+
+    <body src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+        </script>
+
+    </body>
+
+</html>
