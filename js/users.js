@@ -23,7 +23,7 @@ let students = [
     gender: "male",
     xp: 0,
     currentlyWorkingOn: 42,
-    page: "Donny.html",
+    page: "Donny.html"
   },
   {
     name: "Guadalupe Argumedo Saucedo",
