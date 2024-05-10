@@ -195,6 +195,18 @@ let students = [
     xp: 0,
     currentlyWorkingOn: "Page nr",
   },
+    {
+    name: "Kayla Hanifen",
+    group: "App Dev Team",
+    github: "https://github.com/KaylaEHanifen",
+    linkedin: "https://www.linkedin.com/in/kehanifen/",
+    email: "kayla.hanifen@outlook.com",
+    nickname: "Agent K",
+    imageurl: "https://fakeimg.pl/600x400/000000/ffffff?text=AGENT+K&font=museo",
+    gender: "Female",
+    xp: 0,
+    currentlyWorkingOn: "48",
+  },
   {
     name: "Uriel Delgado",
     group: "App Dev Team",
