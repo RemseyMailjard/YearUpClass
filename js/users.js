@@ -1,5 +1,19 @@
 let students = [
   {
+
+    name: "Sabrina Robles",
+    group: "App Dev Team",
+    github: "https://github.com/SabrinaRobles",
+    linkedin: "https://www.linkedin.com/in/sabrina-robles-231112170/",
+    email: "sabrinatrobles22@gmail.com",
+    nickname: "Sabri",
+    imageurl: "https://ih1.redbubble.net/image.3753796206.6697/st,small,507x507-pad,600x600,f8f8f8.jpg",
+    gender: "female",
+    devices: "windows",
+     xp: 0,
+    currentlyWorkingOn: 75
+  },
+  {
     name: "Brett Spokes",
     group: "App Dev Team",
     github: "https://github.com/BrettSpokes",
@@ -36,7 +50,7 @@ let students = [
     web:"",
     devices: "MAC",
     xp: 0,
-    currentlyWorkingOn: 20,
+    currentlyWorkingOn: 34,
   },
   {
     name: "Dante 'Donny' Angerame",
