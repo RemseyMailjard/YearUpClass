@@ -10,6 +10,7 @@ let students = [
     gender: "male",
     devices: "MAC",
     xp: 0,
+    pages: "website",
     currentlyWorkingOn: 20,
   },
   {
@@ -22,6 +23,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=The%20Woodchuck",
     gender: "male",
     xp: 0,
+    pages: "website",
     currentlyWorkingOn: 30,
   },
   {
