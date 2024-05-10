@@ -50,6 +50,7 @@ let students = [
     web:"",
     devices: "MAC",
     xp: 0,
+    page: "",
     currentlyWorkingOn: 34,
   },
   {
@@ -63,14 +64,14 @@ let students = [
     gender: "male",
     web:"",
     xp: 0,
+    page: "",
     currentlyWorkingOn: 42,
   },
   {
     name: "Guadalupe Argumedo Saucedo",
     group: "App Dev Team",
     github: "https://github.com/GuadalupeArgumedoSaucedo",
-    linkedin:
-      "https://www.linkedin.com/in/guadalupe-argumedo-saucedo-2b63b8303/",
+    linkedin: "https://www.linkedin.com/in/guadalupe-argumedo-saucedo-2b63b8303/",
     email: "gargumedosaucedo@appdev.yearup.org",
     nickname: "CodeLupe",
     imageurl: "https://fakeimg.pl/600x400/7b37c4/fff700?text=Lupe+Argumedo&font=bebas",
@@ -78,6 +79,7 @@ let students = [
     web:"",
     devices: "MAC",
     xp: 0,
+    page: "",
     currentlyWorkingOn: 37,
   },
   {
@@ -91,6 +93,7 @@ let students = [
     gender: "female",
     web:"",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "32",
   },
   {
@@ -105,6 +108,7 @@ let students = [
     gender: "male",
     web:"",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -118,7 +122,8 @@ let students = [
     gender: "female",
     web:"",
     xp: 0,
-    currentlyWorkingOn: "Page 31",
+    page: "",
+    currentlyWorkingOn: "31,
     personalWebpage: "http://127.0.0.1:5500/kaaliyah.html"
   },
   {
@@ -132,6 +137,7 @@ let students = [
     gender: "female",
     web:"",
     xp: 0,
+    page: "",
     currentlyWorkingOn: 36,
   },
   {
@@ -145,6 +151,7 @@ let students = [
     gender: "female",
     web:"",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -158,6 +165,7 @@ let students = [
     gender: "female",
     web:"",
     xp: 0,
+    page: "",
     currentlyWorkingOn: 37,
   },
   {
@@ -171,6 +179,7 @@ let students = [
     gender: "male",
     web:"",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -184,7 +193,8 @@ let students = [
     gender: "female",
     web:"",
     xp: 0,
-    currentlyWorkingOn: "Page 32",
+    page: "/moncerrat.html",
+    currentlyWorkingOn: 32,
   },
   {
     name: "Niran Abdulqader",
@@ -198,6 +208,7 @@ let students = [
     web:"",
 
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -212,6 +223,7 @@ let students = [
     web:"",
     web: "rene.html",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page 32",
   },
   {
@@ -225,6 +237,7 @@ let students = [
     gender: "female",
     web:"",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page nr",
   },
   {
@@ -238,6 +251,7 @@ let students = [
     gender: "male",
     web:"",
     xp: 0,
+    page: "",
     currentlyWorkingOn: 30,
   },
   {
@@ -251,6 +265,7 @@ let students = [
     gender: "male",
     web:"",
     xp: 0,
+    page: "",
     currentlyWorkingOn: "Page 39",
   },
   {
@@ -264,10 +279,10 @@ let students = [
     gender: "male",
     web:"",
     xp: 0,
-    currentlyWorkingOn: "Page nr"
+    page: "",
+    currentlyWorkingOn: 90
   },
   {
-
     name: "Daniel Solar",
     group: "App Dev Team",
     github: "https://github.com/1DanielSolar",
