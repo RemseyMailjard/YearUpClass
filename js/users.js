@@ -193,7 +193,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=Techie%20Diva",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: 36,
   },
   {
     name: "Rene Banuelos",
