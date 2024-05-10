@@ -250,7 +250,7 @@ let students = [
     imageurl: "https://www.remsey.nl/assets/images/remsey-mailjard.jpg",
     gender: "male",
     xp: 0,
-    currentlyWorkingOn: 90,
+    currentlyWorkingOn: 0,
   },
   {
     name: "Daniel Solar",
