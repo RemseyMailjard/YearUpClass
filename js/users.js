@@ -110,6 +110,7 @@ let students = [
     gender: "female",
     xp: 0,
     currentlyWorkingOn: 37,
+    page: "/leslie.html"
   },
   {
     name: "Maximo Mayo",
