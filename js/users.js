@@ -6,7 +6,7 @@ let students = [
     linkedin: "https://www.linkedin.com/in/alfi-ali-015506225/",
     email: "asamatar@appdev.yearup.org",
     nickname: "luffy",
-    imageurl: "https://media.licdn.com/dms/image/C4E03AQEoG-gPExm-cw/profile-displayphoto-shrink_800_800/0/1636537401196?e=1720656000&v=beta&t=23QUz82yvLTAwhpN-MQTY0u3bcM-nThbqS-MXJpfTsE",
+    imageurl: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/12/luffy-with-his-straw-hat.jpg",
     pagURL :"alfi.html",
     gender: "male",
     devices: "Windows",
