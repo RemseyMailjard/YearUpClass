@@ -81,7 +81,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function updateXP(students) {
     students.forEach((student) => {
       let pageNumber = parseInt(student.currentlyWorkingOn);
-      student.xp = !isNaN(pageNumber) ? 10 * Math.pow(2, pageNumber) : 0;
+      student.xp = !isNaN(pageNumber) ? 10 * pageNumber :0;
     });
   }
 
