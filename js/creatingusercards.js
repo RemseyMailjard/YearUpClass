@@ -16,9 +16,10 @@ document.addEventListener("DOMContentLoaded", function () {
         <p class="card-text">${user.group}</p>
         <p class="card-text"><strong>XP Points:</strong> ${user.xp}</p>
         <p class="card-text"><strong>Currently Working On:</strong> ${user.currentlyWorkingOn}</p>
-        <a href="${user.github}" target="_blank" class="btn btn-primary">GitHub</a>
-        <a href="${user.linkedin}" target="_blank" class="btn btn-secondary">LinkedIn</a>
-    </div>
+        <a href="${user.github}" target="_blank" class="btn btn-success">GitHub</a>
+        <a href="${user.linkedin}" target="_blank" class="btn btn-danger">Website</a>
+        <a href="${user.linkedin}" target="_blank" class="btn btn-info">LinkedIn</a>
+        <a href="mailto:${user.email}?subject=Hi%20${user.name}&body=Hi%20${user.name}" class="btn btn-primary"><i class="bi bi-envelope"></i> Email</a> </div>
 </div>
 `;
       userCardsContainer.appendChild(card);
