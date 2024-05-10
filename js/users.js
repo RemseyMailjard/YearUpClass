@@ -10,7 +10,7 @@ let students = [
     gender: "male",
     xp: 0,
     page: "brett.html",
-    currentlyWorkingOn: 75
+    currentlyWorkingOn: 75 //Working on WB-4 Workshop Travel Bureau
   },
   {
     name: "Alfi Ali",
