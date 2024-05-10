@@ -103,7 +103,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400/173006/fa4b4b?text=kadi&font=lobster",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: 36,
+    currentlyWorkingOn: 36
   },
   {
     name: "Kayla Hanifen (Mac)",
