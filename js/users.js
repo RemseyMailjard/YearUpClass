@@ -184,7 +184,7 @@ let students = [
     gender: "male",
     page:"http://127.0.0.1:5501/Uriel.html",
     xp: 0,
-    currentlyWorkingOn: 30,
+    currentlyWorkingOn: 31,
   },
   {
     name: "Victor Castaneda",
