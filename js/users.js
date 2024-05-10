@@ -140,12 +140,13 @@ let students = [
     group: "App Dev Team",
     github: "https://github.com/NiranAbdulqader",
     linkedin: "https://www.linkedin.com/in/niran-abdulqader-/",
+    Website:"Niran.html",
     email: "nabdulqader@appdev.yearup.org",
     nickname: "Techie Diva",
-    imageurl: "https://fakeimg.pl/600x400?text=Techie%20Diva",
+    imageurl: "https://media.licdn.com/dms/image/C5603AQHCS9pI_VLNZQ/profile-displayphoto-shrink_800_800/0/1634626091348?e=1720656000&v=beta&t=GgD0cMSHbOwXtLXvKnhmQFg57BFgomFovZXPY28b14Q",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: 35
   },
   {
     name: "Rene Banuelos",
