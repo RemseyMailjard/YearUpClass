@@ -11,7 +11,7 @@ let students = [
     devices: "MAC",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: 20,
+    currentlyWorkingOn: 20
   },
   {
     name: "Dante 'Donny' Angerame",
@@ -24,7 +24,7 @@ let students = [
     gender: "male",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: 30,
+    currentlyWorkingOn: 30
   },
   {
     name: "Guadalupe Argumedo Saucedo",
@@ -38,7 +38,7 @@ let students = [
     devices: "MAC",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Jaranesca Braker",
@@ -51,7 +51,7 @@ let students = [
     gender: "female",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Jesús Mimila",
@@ -65,7 +65,7 @@ let students = [
     gender: "male",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Kaaliyah Gray (Mac)",
@@ -78,7 +78,7 @@ let students = [
     gender: "female",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Kadiatou Barry (Mac)",
@@ -91,7 +91,7 @@ let students = [
     gender: "female",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Kayla Hanifen (Mac)",
@@ -104,7 +104,7 @@ let students = [
     gender: "female",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Leslie Alvarado (Mac)",
@@ -117,7 +117,7 @@ let students = [
     gender: "female",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Maximo Mayo",
@@ -130,7 +130,7 @@ let students = [
     gender: "male",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Moncerrat Lua Salas",
@@ -143,7 +143,7 @@ let students = [
     gender: "female",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Niran Abdulqader",
@@ -156,7 +156,7 @@ let students = [
     gender: "female",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Rene Banuelos",
@@ -169,7 +169,7 @@ let students = [
     gender: "male",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Sabrina Robles",
@@ -182,7 +182,7 @@ let students = [
     gender: "female",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Uriel Delgado",
@@ -195,7 +195,7 @@ let students = [
     gender: "male",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Victor Castaneda",
@@ -208,7 +208,7 @@ let students = [
     gender: "male",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Remsey Mailjard",
@@ -221,7 +221,7 @@ let students = [
     gender: "male",
     xp: 0,
     newpage: "",
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: "Page nr"
   },
   {
     name: "Andrea Ceballos",
@@ -234,6 +234,6 @@ let students = [
     gender: "Female",
     xp: 0,
     newpage: "/andrea.html",
-    currentlyWorkingOn: "48",
-  },
+    currentlyWorkingOn: "48"
+  }
 ];
