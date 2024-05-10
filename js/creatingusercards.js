@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
+// DOM elements
   const userCardsContainer = document.getElementById("user-cards");
   const nameFilterInput = document.getElementById("nameFilter");
   const searchButton = document.getElementById("searchButton");
@@ -7,10 +8,29 @@ document.addEventListener("DOMContentLoaded", function () {
   const sortAscPointButton = document.getElementById("sortWorkingOn");
   const sortDescPointButton = document.getElementById("sortLowest");
 
+  // Event listeners
+
+  sortAscButton.addEventListener("click", function () {
+    createUserCards(students, "asc");
+  });
+
+  sortDescButton.addEventListener("click", function () {
+    createUserCards(students, "desc");
+  });
+
+  sortAscPointButton.addEventListener("click", function () {
+    createUserCards(students, "pointsasc");
+  });
+
+  sortDescPointButton.addEventListener("click", function () {
+    createUserCards(students, "pointsdesc");
+  });
+
   function sortByNameAsc(users) {
     return users.sort((a, b) => a.name.localeCompare(b.name));
   }
 
+  //Sort functions
   function sortByNameDesc(users) {
     return users.sort((a, b) => b.name.localeCompare(a.name));
   }
@@ -61,22 +81,6 @@ document.addEventListener("DOMContentLoaded", function () {
       userCardsContainer.appendChild(card);
     });
   }
-
-  sortAscButton.addEventListener("click", function () {
-    createUserCards(students, "asc");
-  });
-
-  sortDescButton.addEventListener("click", function () {
-    createUserCards(students, "desc");
-  });
-
-  sortAscPointButton.addEventListener("click", function () {
-    createUserCards(students, "pointsasc");
-  });
-
-  sortDescPointButton.addEventListener("click", function () {
-    createUserCards(students, "pointsdesc");
-  });
 
   function updateXP(students) {
     students.forEach((student) => {
