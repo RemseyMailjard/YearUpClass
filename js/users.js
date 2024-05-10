@@ -205,7 +205,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400/000000/ffffff?text=AGENT+K&font=museo",
     gender: "Female",
     xp: 0,
-    currentlyWorkingOn: "48",
+    currentlyWorkingOn: 48,
   },
   {
     name: "Uriel Delgado",
