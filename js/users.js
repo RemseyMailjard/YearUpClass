@@ -109,7 +109,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400/aaddfa/197dff?text=Leslie+A&font=lobster",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: 37,
+    currentlyWorkingOn: 49,
     page: "/leslie.html"
   },
   {
