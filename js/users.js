@@ -34,7 +34,7 @@ let students = [
     email: "asamatar@appdev.yearup.org",
     nickname: "luffy",
     imageurl:
-      "https://avatars.githubusercontent.com/u/94232315?v=4https://avatars.githubusercontent.com/u/94232315?v=4",
+      "https://media.licdn.com/dms/image/C4E03AQEoG-gPExw/profile-displayphoto-shrink_800_800/0/1636537401196?e=1720656000&v=beta&t=23QUz82yvLTAwhpN-MQTY0u3bcM-nThbqS-MXJpfTsE",
     gender: "male",
     devices: "Windows",
     xp: 0,
