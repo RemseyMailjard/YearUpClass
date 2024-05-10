@@ -6,11 +6,12 @@ let students = [
     linkedin: "https://www.linkedin.com/in/sabrina-robles-231112170/",
     email: "sabrinatrobles22@gmail.com",
     nickname: "Sabri",
-    imageurl: "https://ih1.redbubble.net/image.3753796206.6697/st,small,507x507-pad,600x600,f8f8f8.jpg",
+    imageurl:
+      "https://ih1.redbubble.net/image.3753796206.6697/st,small,507x507-pad,600x600,f8f8f8.jpg",
     gender: "female",
     devices: "windows",
     xp: 0,
-    currentlyWorkingOn: 75
+    currentlyWorkingOn: 75,
   },
   {
     name: "Brett Spokes",
@@ -19,10 +20,11 @@ let students = [
     linkedin: "https://www.linkedin.com/in/brett-spokes-8b758b29b/",
     email: "bspokes@appdev.yearup.org",
     nickname: "Any Key",
-    imageurl: "https://media.licdn.com/dms/image/D4E03AQHsvMOXofd4eg/profile-displayphoto-shrink_800_800/0/1701278215042?e=1720656000&v=beta&t=W-I_I4aKUyVjcXNKc0lfkrP7ftWPD-fACwEE1NqLUlw",
+    imageurl:
+      "https://media.licdn.com/dms/image/D4E03AQHsvMOXofd4eg/profile-displayphoto-shrink_800_800/0/1701278215042?e=1720656000&v=beta&t=W-I_I4aKUyVjcXNKc0lfkrP7ftWPD-fACwEE1NqLUlw",
     gender: "male",
     xp: 0,
-    currentlyWorkingOn: 75
+    currentlyWorkingOn: 75,
   },
   {
     name: "Alfi Ali",
@@ -31,11 +33,12 @@ let students = [
     linkedin: "https://www.linkedin.com/in/alfi-ali-015506225/",
     email: "asamatar@appdev.yearup.org",
     nickname: "luffy",
-    imageurl: "https://media.licdn.com/dms/image/C4E03AQEoG-gPExw/profile-displayphoto-shrink_800_800/0/1636537401196?e=1720656000&v=beta&t=23QUz82yvLTAwhpN-MQTY0u3bcM-nThbqS-MXJpfTsE",
+    imageurl:
+      "https://media.licdn.com/dms/image/C4E03AQEoG-gPExw/profile-displayphoto-shrink_800_800/0/1636537401196?e=1720656000&v=beta&t=23QUz82yvLTAwhpN-MQTY0u3bcM-nThbqS-MXJpfTsE",
     gender: "male",
     devices: "Windows",
     xp: 0,
-    currentlyWorkingOn: 31
+    currentlyWorkingOn: 31,
   },
   {
     name: "Abdikadir Samatar",
@@ -44,9 +47,9 @@ let students = [
     linkedin: "https://www.linkedin.com/in/abdikadir-samatar/",
     email: "asamatar@appdev.yearup.org",
     nickname: "deer",
-    imageurl: "https://media.licdn.com/dms/image/D4E03AQHCIfkZE-wCMA/profile-displayphoto-shrink_200_200/0/1710697206134?e=1720656000&v=beta&t=UlWXGrpsVIy4L_BTQgve95zK0MHqXjX2mvQDN721Nfo",
+    imageurl:
+      "https://media.licdn.com/dms/image/D4E03AQHCIfkZE-wCMA/profile-displayphoto-shrink_200_200/0/1710697206134?e=1720656000&v=beta&t=UlWXGrpsVIy4L_BTQgve95zK0MHqXjX2mvQDN721Nfo",
     gender: "male",
-    web: "",
     devices: "MAC",
     xp: 0,
     currentlyWorkingOn: 34,
@@ -60,7 +63,6 @@ let students = [
     nickname: "The Woodchuck",
     imageurl: "https://a-z-animals.com/media/2021/10/groundhog-1024x535.jpg",
     gender: "male",
-    web: "",
     xp: 0,
     currentlyWorkingOn: 42,
   },
@@ -68,12 +70,13 @@ let students = [
     name: "Guadalupe Argumedo Saucedo",
     group: "App Dev Team",
     github: "https://github.com/GuadalupeArgumedoSaucedo",
-    linkedin: "https://www.linkedin.com/in/guadalupe-argumedo-saucedo-2b63b8303/",
+    linkedin:
+      "https://www.linkedin.com/in/guadalupe-argumedo-saucedo-2b63b8303/",
     email: "gargumedosaucedo@appdev.yearup.org",
     nickname: "CodeLupe",
-    imageurl: "https://fakeimg.pl/600x400/7b37c4/fff700?text=Lupe+Argumedo&font=bebas",
+    imageurl:
+      "https://fakeimg.pl/600x400/7b37c4/fff700?text=Lupe+Argumedo&font=bebas",
     gender: "female",
-    web: "",
     devices: "MAC",
     xp: 0,
     currentlyWorkingOn: 37,
@@ -87,7 +90,6 @@ let students = [
     nickname: "JSJ (JavaScript Jaranesca)",
     imageurl: "https://fakeimg.pl/600x400/ffe44c/db29db?text=Jaranesca+Braker",
     gender: "female",
-    web: "",
     xp: 0,
     currentlyWorkingOn: "32",
   },
@@ -98,12 +100,13 @@ let students = [
     linkedin: "https://www.linkedin.com/in/jesus-mimils-435b32274/",
     email: "jmimila@appdev.yearup.org",
     nickname: "JJ",
-    imageurl: "https://media.licdn.com/dms/image/D4E03AQFN9jSMTdbzDA/profile-displayphoto-shrink_400_400/0/1715103915979?e=1720656000&v=beta&t=5QnIvkUZJ9RX9KlBJbEPdKgv95eNmlrGAiDgvYd9k8A",
+    imageurl:
+      "https://media.licdn.com/dms/image/D4E03AQFN9jSMTdbzDA/profile-displayphoto-shrink_400_400/0/1715103915979?e=1720656000&v=beta&t=5QnIvkUZJ9RX9KlBJbEPdKgv95eNmlrGAiDgvYd9k8A",
     devices: "MAC",
     gender: "male",
-    web: "",
     xp: 0,
-    currentlyWorkingOn: "Page nr",
+    currentlyWorkingOn: 31,
+    personalWebpage: "/jesus.html",
   },
   {
     name: "Kaaliyah Gray (Mac)",
@@ -112,12 +115,12 @@ let students = [
     linkedin: "https://www.linkedin.com/in/kaaliyahgray-b03281237",
     email: "kgray@appdev.yearup.org",
     nickname: "leetheMrE",
-    imageurl: "https://fakeimg.pl/600x400/174513/52ab6b?text=the+GOAT&font=bebas",
+    imageurl:
+      "https://fakeimg.pl/600x400/174513/52ab6b?text=the+GOAT&font=bebas",
     gender: "female",
-    web: "",
     xp: 0,
     currentlyWorkingOn: "31",
-    personalWebpage: "http://127.0.0.1:5500/kaaliyah.html"
+    personalWebpage: "http://127.0.0.1:5500/kaaliyah.html",
   },
   {
     name: "Kadiatou Barry (Mac)",
@@ -128,7 +131,6 @@ let students = [
     nickname: "the connoisseur",
     imageurl: "https://fakeimg.pl/600x400/173006/fa4b4b?text=kadi&font=lobster",
     gender: "female",
-    web: "",
     xp: 0,
     currentlyWorkingOn: 36,
   },
@@ -141,7 +143,6 @@ let students = [
     nickname: "Agent K",
     imageurl: "https://fakeimg.pl/600x400?text=Agent%20K",
     gender: "female",
-    web: "",
     xp: 0,
     currentlyWorkingOn: "Page nr",
   },
@@ -152,9 +153,9 @@ let students = [
     linkedin: "https://www.linkedin.com/in/leslie-alvarado-connect/",
     email: "lalvarado@appdev.yearup.org",
     nickname: "The ScriptSiren",
-    imageurl: "https://fakeimg.pl/600x400/aaddfa/197dff?text=Leslie+A&font=lobster",
+    imageurl:
+      "https://fakeimg.pl/600x400/aaddfa/197dff?text=Leslie+A&font=lobster",
     gender: "female",
-    web: "",
     xp: 0,
     currentlyWorkingOn: 37,
   },
@@ -167,7 +168,6 @@ let students = [
     nickname: "reference error",
     imageurl: "https://fakeimg.pl/600x400?text=reference%20error",
     gender: "male",
-    web: "",
     xp: 0,
     currentlyWorkingOn: "Page nr",
   },
@@ -180,7 +180,6 @@ let students = [
     nickname: "Monce",
     imageurl: "https://fakeimg.pl/600x400/fc8dd7/fad2e8?text=monce+so+swag",
     gender: "female",
-    web: "",
     xp: 0,
     currentlyWorkingOn: 32,
   },
@@ -193,7 +192,6 @@ let students = [
     nickname: "Techie Diva",
     imageurl: "https://fakeimg.pl/600x400?text=Techie%20Diva",
     gender: "female",
-    web: "",
     xp: 0,
     currentlyWorkingOn: "Page nr",
   },
@@ -210,18 +208,6 @@ let students = [
     xp: 0,
     currentlyWorkingOn: 32,
   },
-    {
-    name: "Kayla Hanifen",
-    group: "App Dev Team",
-    github: "https://github.com/KaylaEHanifen",
-    linkedin: "https://www.linkedin.com/in/kehanifen/",
-    email: "kayla.hanifen@outlook.com",
-    nickname: "Agent K",
-    imageurl: "https://fakeimg.pl/600x400/000000/ffffff?text=AGENT+K&font=museo",
-    gender: "Female",
-    xp: 0,
-    currentlyWorkingOn: 48,
-  },
   {
     name: "Uriel Delgado",
     group: "App Dev Team",
@@ -229,9 +215,9 @@ let students = [
     linkedin: "https://www.linkedin.com/in/uriel-delgado-3a49622bb/",
     email: "udelgado@appdev.yearup.org",
     nickname: "YaBoiUri",
-    imageurl: "https://fakeimg.pl/600x400/2ac458/c942c7?text=This+is+Uriel's+image.",
+    imageurl:
+      "https://fakeimg.pl/600x400/2ac458/c942c7?text=This+is+Uriel's+image.",
     gender: "male",
-    web: "",
     xp: 0,
     currentlyWorkingOn: 30,
   },
@@ -244,7 +230,6 @@ let students = [
     nickname: "vic.exe",
     imageurl: "https://fakeimg.pl/600x400/987dff/fff?text=america+ya!+HALLO",
     gender: "male",
-    web: "",
     xp: 0,
     currentlyWorkingOn: 39,
   },
@@ -257,9 +242,8 @@ let students = [
     nickname: "Mailjard the Magnificent",
     imageurl: "https://fakeimg.pl/600x400?text=Mailjard%20the%20Magnificent",
     gender: "male",
-    web: "",
     xp: 0,
-    currentlyWorkingOn: 90
+    currentlyWorkingOn: 90,
   },
   {
     name: "Daniel Solar",
@@ -271,7 +255,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=Not+Defined",
     gender: "male",
     xp: 0,
-    currentlyWorkingOn: 41
+    currentlyWorkingOn: 41,
   },
   {
     name: "Andrea Ceballos",
@@ -280,10 +264,10 @@ let students = [
     linkedin: "https://www.linkedin.com/in/andrea-irary/",
     email: "iraryc@gmail.com",
     nickname: "Kung Fu Koder",
-    imageurl: "https://fakeimg.pl/600x400/c97d7d/e7e5e8?text=Andrea&font=lobster",
+    imageurl:
+      "https://fakeimg.pl/600x400/c97d7d/e7e5e8?text=Andrea&font=lobster",
     gender: "Female",
-    web: "",
     xp: 0,
-    currentlyWorkingOn: "48"
-  }
+    currentlyWorkingOn: 48,
+  },
 ];
