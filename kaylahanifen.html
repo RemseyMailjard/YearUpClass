@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -29,13 +28,13 @@
                         <a class="nav-link" href="icebreaker.html">Icebreaker</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="icebreaker.html">Kayla Hanifen</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="courses.html">Courses</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="andrea.html">Andrea</a>
                     </li>
                 </ul>
                 <div class="navbar-text">
@@ -54,7 +53,8 @@
         </div>
         <!-- Center the button by adding 'd-flex justify-content-center' classes -->
         <div class="d-flex justify-content-center">
-            <button type="button" class="btn btn-primary me-2" onclick="generateIcebreaker()">Click me to generate an icebreaker question</button>
+            <button type="button" class="btn btn-primary me-2" onclick="generateIcebreaker()">Click me to generate an
+                icebreaker question</button>
             <button type="button" class="btn btn-primary" onclick="pickRandomStudent()">Pick Random Name</button>
         </div>
         <br>
@@ -62,7 +62,7 @@
             <p id="displayQuestion"></p>
         </div>
         <br>
- 
+
         <section class="row" id="user-cards">
             <!-- User cards will be dynamically added here -->
         </section>
@@ -75,17 +75,14 @@
     <body src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
         </script>
         <script>
-            document.addEventListener("DOMContentLoaded", function ()
-            {
+            document.addEventListener("DOMContentLoaded", function () {
                 const userCardsContainer = document.getElementById("user-cards");
                 const nameFilterInput = document.getElementById("nameFilter");
                 const searchButton = document.getElementById("searchButton");
 
-                function createUserCards(users)
-                {
+                function createUserCards(users) {
                     userCardsContainer.innerHTML = ""; // Clear existing cards
-                    users.forEach(user =>
-                    {
+                    users.forEach(user => {
                         const card = document.createElement("div");
                         card.className = "col-md-4 mb-4";
                         card.innerHTML = `
@@ -98,7 +95,6 @@
                     <p class="card-text"><strong>Currently Working On:</strong> ${user.currentlyWorkingOn}</p>
                     <a href="${user.github}" target="_blank" class="btn btn-primary">GitHub</a>
                     <a href="${user.linkedin}" target="_blank" class="btn btn-secondary">LinkedIn</a>
-                    <a href="${user.newpage}" target="_blank" class="btn btn-secondary">My Page</a>
                 </div>
             </div>
             `;
@@ -106,17 +102,13 @@
                     });
                 }
 
-                function updateXP(students)
-                {
-                    students.forEach(student =>
-                    {
+                function updateXP(students) {
+                    students.forEach(student => {
                         // Check and parse 'currentlyWorkingOn' assuming it contains just the page number
                         let pageNumber = parseInt(student.currentlyWorkingOn);
-                        if (!isNaN(pageNumber))
-                        {  // Check if the pageNumber is a valid number
+                        if (!isNaN(pageNumber)) {  // Check if the pageNumber is a valid number
                             student.xp = pageNumber * 10;
-                        } else
-                        {
+                        } else {
                             student.xp = 0;  // Default to 0 if not a valid number
                         }
                     });
@@ -124,8 +116,7 @@
                 // Call the function to update XP based on the current page number
                 updateXP(students);
                 // Function to filter users based on input
-                function filterUsers()
-                {
+                function filterUsers() {
                     const filterValue = nameFilterInput.value.toLowerCase();
                     const filteredData = students.filter(student =>
                         student.name.toLowerCase().includes(filterValue) ||
@@ -139,16 +130,13 @@
                 createUserCards(students);
 
                 // Add event listener to the search button
-                searchButton.addEventListener("click", function ()
-                {
+                searchButton.addEventListener("click", function () {
                     filterUsers();  // Call filterUsers function on click
                 });
 
                 // Optionally, you can also trigger filtering with the Enter key
-                nameFilterInput.addEventListener("keyup", function (event)
-                {
-                    if (event.key === "Enter")
-                    {
+                nameFilterInput.addEventListener("keyup", function (event) {
+                    if (event.key === "Enter") {
                         filterUsers();
                     }
                 });

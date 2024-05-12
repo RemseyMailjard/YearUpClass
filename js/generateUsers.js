@@ -5,6 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     function createUserCards(users) {
         userCardsContainer.innerHTML = ""; // Clear existing cards
+        users.sort((a,b) => a.name.localComare(b.name));
         users.forEach(user => {
             const card = document.createElement("div");
             card.className = "col-md-4 mb-4";
