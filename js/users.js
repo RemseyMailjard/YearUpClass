@@ -126,8 +126,9 @@ let students = [
       "https://media.licdn.com/dms/image/D5603AQEJtVL8lJLJpw/profile-displayphoto-shrink_400_400/0/1711738921148?e=1720656000&v=beta&t=VbkGPpHEA5sBDc8C96HVHrmvtBEJdt5TWW2bV-zuy18",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: "31",
-    personalWebpage: "http://127.0.0.1:5500/kaaliyah.html",
+
+    currentlyWorkingOn: "Page 59",
+    personalWebpage: "http://127.0.0.1:5500/kaaliyah.html"
   },
   {
     name: "Kadiatou Barry (Mac)",
