@@ -22,7 +22,7 @@ let students = [
     imageurl: "https://a-z-animals.com/media/2021/10/groundhog-1024x535.jpg",
     gender: "male",
     xp: 0,
-    currentlyWorkingOn: 42,
+    currentlyWorkingOn: 55,
     page: "Donny.html"
   },
   {
