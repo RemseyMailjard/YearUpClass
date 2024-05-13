@@ -11,7 +11,7 @@ let students = [
     gender: "male",
     devices: "Windows",
     xp: 0,
-    currentlyWorkingOn: 31,
+    currentlyWorkingOn: 45,
   },
   {
     name: "Abdikadir Samatar",
