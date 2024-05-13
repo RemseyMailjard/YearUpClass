@@ -93,7 +93,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400/ffe44c/db29db?text=Jaranesca+Braker",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: "32",
+    currentlyWorkingOn: "55",
   },
   {
     name: "Jesús Mimila",
