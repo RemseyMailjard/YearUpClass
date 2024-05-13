@@ -35,12 +35,17 @@ let students = [
     linkedin: "https://www.linkedin.com/in/alfi-ali-015506225/",
     email: "asamatar@appdev.yearup.org",
     nickname: "luffy",
+<<<<<<< AlfiAli
+    imageurl: "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/12/luffy-with-his-straw-hat.jpg",
+    pagURL :"alfi.html",
+=======
     imageurl:
       "https://media.licdn.com/dms/image/C4E03AQEoG-gPExm-cw/profile-displayphoto-shrink_400_400/0/1636537401196?e=1720656000&v=beta&t=nfp6t_VXyLbYVvmFFXz2ct3Mx8V1P8Xm9qzrJQGOVMc",
+>>>>>>> main
     gender: "male",
     devices: "Windows",
     xp: 0,
-    currentlyWorkingOn: 31,
+    currentlyWorkingOn: 45,
   },
   {
     name: "Abdikadir Samatar",
