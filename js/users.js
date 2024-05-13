@@ -249,7 +249,7 @@ let students = [
     imageurl: "https://fakeimg.pl/600x400?text=Not+Defined",
     gender: "male",
     xp: 0,
-    currentlyWorkingOn: 41
+    currentlyWorkingOn: 51
   },
   {
     name: "Andrea Ceballos",
