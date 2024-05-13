@@ -161,7 +161,7 @@ let students = [
       "https://media.licdn.com/dms/image/D5603AQHD4XcsiS9_7Q/profile-displayphoto-shrink_400_400/0/1714775792411?e=1720656000&v=beta&t=ti7w2I4510-NOGoVQqClRjXZ-XGsu673mSn6JDWZtRY",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: 47,
+    currentlyWorkingOn: 48,
     page: "/leslie.html"
   },
   {
