@@ -238,7 +238,7 @@ let students = [
     email: "vcastaneda@appdev.yearup.org",
     nickname: "vic.exe",
     imageUrl:
-      "https://media.licdn.com/dms/image/C4E03AQEzzEbWxGnohQ/profile-displayphoto-shrink_400_400/0/1559835011604?e=1720656000&v=beta&t=fSAI7saiB20o34fW1rmiBNC0vE_wkb9-i93ge6dKljs",
+      "https://media.licdn.com/dms/image/C4E03AQEzzEbWxGnohQ/profile-displayphoto-shrink_200_200/0/1559835011459?e=1721260800&v=beta&t=ERaw8MclKPqCGFt9YCF_jk7iuPpIgS9gZ5vP8Nypz3A",
     gender: "male",
     xp: 0,
     currentlyWorkingOn: 39,
