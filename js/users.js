@@ -27,7 +27,7 @@ let students = [
     gender: "male",
     devices: "Windows",
     xp: 0,
-    currentlyWorkingOn: 75,
+    currentlyWorkingOn: 81,
   },
   {
     name: "Alfi Ali",
@@ -41,7 +41,7 @@ let students = [
     gender: "male",
     devices: "Windows",
     xp: 0,
-    currentlyWorkingOn: 45,
+    currentlyWorkingOn: 44,
   },
   {
     name: "Abdikadir Samatar",
@@ -67,7 +67,7 @@ let students = [
     imageUrl: "https://a-z-animals.com/media/2021/10/groundhog-1024x535.jpg",
     gender: "male",
     xp: 0,
-    currentlyWorkingOn: 42,
+    currentlyWorkingOn: 32,
   },
   {
     name: "Guadalupe Argumedo Saucedo",
@@ -82,7 +82,7 @@ let students = [
     gender: "female",
     devices: "MAC",
     xp: 0,
-    currentlyWorkingOn: 37,
+    currentlyWorkingOn: 39,
   },
   {
     name: "Jaranesca Braker",
@@ -94,7 +94,7 @@ let students = [
     imageUrl: "https://fakeimg.pl/600x400/ffe44c/db29db?text=Jaranesca+Braker",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: 55,
+    currentlyWorkingOn: 37,
   },
   {
     name: "Jesús Mimila",
@@ -122,7 +122,7 @@ let students = [
       "https://media.licdn.com/dms/image/D5603AQEJtVL8lJLJpw/profile-displayphoto-shrink_400_400/0/1711738921148?e=1720656000&v=beta&t=VbkGPpHEA5sBDc8C96HVHrmvtBEJdt5TWW2bV-zuy18",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: 59,
+    currentlyWorkingOn: 49,
     personalWebpage: "http://127.0.0.1:5500/kaaliyah.html",
   },
   {
@@ -136,7 +136,7 @@ let students = [
       "https://media.licdn.com/dms/image/C4E03AQELUNIRkpL2mQ/profile-displayphoto-shrink_400_400/0/1650085102341?e=1720656000&v=beta&t=mmwdGPGrsMGSixWu1_5aNj-9Cefa_n3CuCY3XSLXIr4",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: 36,
+    currentlyWorkingOn: 39,
   },
   {
     name: "Kayla Hanifen (Mac)",
@@ -149,7 +149,7 @@ let students = [
       "https://media.licdn.com/dms/image/D5603AQFHQ46apuKgbg/profile-displayphoto-shrink_400_400/0/1690255441190?e=1720656000&v=beta&t=vfjPfEJcHiS51C1tlT9DOG76R5n_PPJHoKirGzlHEuU",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: 0,
+    currentlyWorkingOn: 36,
   },
   {
     name: "Leslie Alvarado (Mac)",
@@ -176,7 +176,7 @@ let students = [
       "https://media.licdn.com/dms/image/D5635AQGJEoOx7l2_wg/profile-framedphoto-shrink_400_400/0/1668459290344?e=1715983200&v=beta&t=HUDrgjEalAYADICjvMh3t91vcTis3VBKVAUhR9FSgRk",
     gender: "male",
     xp: 0,
-    currentlyWorkingOn: 0,
+    currentlyWorkingOn: 50,
   },
   {
     name: "Moncerrat Lua Salas",
@@ -188,7 +188,7 @@ let students = [
     imageUrl: "https://fakeimg.pl/600x400/fc8dd7/fad2e8?text=monce+so+swag",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: 32,
+    currentlyWorkingOn: 45,
   },
   {
     name: "Niran Abdulqader",
@@ -202,7 +202,7 @@ let students = [
       "https://media.licdn.com/dms/image/C5603AQHCS9pI_VLNZQ/profile-displayphoto-shrink_800_800/0/1634626091348?e=1720656000&v=beta&t=GgD0cMSHbOwXtLXvKnhmQFg57BFgomFovZXPY28b14Q",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: 48,
+    currentlyWorkingOn: 53,
   },
   {
     name: "Rene Banuelos",
@@ -215,7 +215,7 @@ let students = [
     gender: "male",
     personalWebpage: "rene.html",
     xp: 0,
-    currentlyWorkingOn: 32,
+    currentlyWorkingOn: 30,
   },
   {
     name: "Uriel Delgado",
@@ -228,7 +228,7 @@ let students = [
       "https://fakeimg.pl/600x400/2ac458/c942c7?text=This+is+Uriel's+image.",
     gender: "male",
     xp: 0,
-    currentlyWorkingOn: 30,
+    currentlyWorkingOn: 31,
   },
   {
     name: "Victor Castaneda",
@@ -241,7 +241,7 @@ let students = [
       "https://media.licdn.com/dms/image/C4E03AQEzzEbWxGnohQ/profile-displayphoto-shrink_200_200/0/1559835011459?e=1721260800&v=beta&t=ERaw8MclKPqCGFt9YCF_jk7iuPpIgS9gZ5vP8Nypz3A",
     gender: "male",
     xp: 0,
-    currentlyWorkingOn: 39,
+    currentlyWorkingOn: 33,
   },
   {
     name: "Remsey Mailjard",
@@ -266,7 +266,7 @@ let students = [
       "https://media.licdn.com/dms/image/D4D03AQHBE8cnwrNeZQ/profile-displayphoto-shrink_400_400/0/1715104324245?e=1720656000&v=beta&t=DIUF_40UXczsxkRaZB3Azjwsbg2TQgNuwk8da8-g9ek",
     gender: "male",
     xp: 0,
-    currentlyWorkingOn: 41,
+    currentlyWorkingOn: 33,
   },
   {
     name: "Andrea Ceballos",
@@ -279,6 +279,6 @@ let students = [
       "https://media.licdn.com/dms/image/D5635AQEGBhG_qU_xJw/profile-framedphoto-shrink_400_400/0/1711041596221?e=1715983200&v=beta&t=3_LMe7iPRKe-cq6GHvXFEgnWp9Q_5HiY2XaDrFg_3EM",
     gender: "female",
     xp: 0,
-    currentlyWorkingOn: 48,
+    currentlyWorkingOn: 39,
   },
 ];
