@@ -39,10 +39,27 @@ function updateClock() {
 function updateCountdown(phoenixTime) {
   const targetDate = new Date(phoenixTime.getFullYear(), 5, 28); // June 28th of the current year
   const timeDifference = targetDate - phoenixTime;
+
   if (timeDifference > 0) {
-    const daysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
-    document.getElementById("countdown").textContent =
-      daysLeft + " day(s) left in the academy";
+    const totalDaysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
+
+    let weekdaysLeft = 0;
+    let currentDate = new Date(phoenixTime);
+
+    while (currentDate <= targetDate) {
+      const dayOfWeek = currentDate.getDay();
+      if (dayOfWeek !== 0 && dayOfWeek !== 6) {
+        // Exclude Sundays (0) and Saturdays (6)
+        weekdaysLeft++;
+      }
+      currentDate.setDate(currentDate.getDate() + 1);
+    }
+
+    const weeksLeft = Math.ceil(totalDaysLeft / 7);
+
+    document.getElementById(
+      "countdown"
+    ).textContent = `${totalDaysLeft} day(s), ${weekdaysLeft} weekday(s), and ${weeksLeft} week(s) left in the academy`;
   } else {
     document.getElementById("countdown").textContent = "The date has passed";
   }
