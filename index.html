@@ -56,11 +56,28 @@
             <button class="btn btn-outline-secondary" type="button" id="searchButton">Search</button>
         </div>
         <!-- Center the button by adding 'd-flex justify-content-center' classes -->
-        <div class="d-flex justify-content-center">
+        <div class="d-flex justify-content-center mt-3">
+            <select id="categorySelect" class="form-select me-2">
+                <option value="all">All</option>
+                <option value="General">General</option>
+                <option value="Standup">Standup</option>
+                <option value="First Day">First Day</option>
+                <option value="Capstone">Capstone</option>
+                <option value="Workshop">Workshop</option>
+                <option value="End of Program">End of Program</option>
+                <option value="Food">Food</option>
+                <option value="About You">About You</option>
+                <option value="If You">If You</option>
+                <option value="Would You Rather">Would You Rather</option>
+                <option value="Suggestions from Class">Suggestions from Class</option>
+            </select>
             <button type="button" class="btn btn-primary me-2" onclick="generateIcebreaker()">Click me to generate an
                 icebreaker question</button>
             <button type="button" class="btn btn-danger" onclick="displayRandomQuoteAndEncouragement()">Motivate
                 me</button>
+        </div>
+        <div class="d-flex justify-content-center mt-3">
+            <p id="displayQuestion"></p>
         </div>
         <br>
         <div class="d-flex justify-content-center">
