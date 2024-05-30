@@ -1,20 +1,5 @@
 let students = [
-  {
-    name: "Sabrina Robles",
-    group: "App Dev Team",
-    github: "https://github.com/SabrinaRobles",
-    linkedin: "https://www.linkedin.com/in/sabrina-robles-231112170/",
-    email: "sabrinatrobles22@gmail.com",
-    nickname: "Sabri",
-    imageUrl:
-      "https://ih1.redbubble.net/image.3753796206.6697/st,small,507x507-pad,600x600,f8f8f8.jpg",
-    imageUrlLinkedin:
-      "https://media.licdn.com/dms/image/D5603AQFre02VzeThcA/profile-displayphoto-shrink_400_400/0/1711770747511?e=1720656000&v=beta&t=rwxNPYA9tZNxr735lItRNDmKenGq7ho06bQcRNLcSSg",
-    gender: "female",
-    devices: "windows",
-    xp: 0,
-    currentlyWorkingOn: 75,
-  },
+ 
   {
     name: "Brett Spokes",
     group: "App Dev Team",
@@ -42,20 +27,6 @@ let students = [
     devices: "Windows",
     xp: 0,
     currentlyWorkingOn: 44,
-  },
-  {
-    name: "Abdikadir Samatar",
-    group: "App Dev Team",
-    github: "https://github.com/abdikadirsamatar",
-    linkedin: "https://www.linkedin.com/in/abdikadir-samatar/",
-    email: "asamatar@appdev.yearup.org",
-    nickname: "deer",
-    imageUrl:
-      "https://media.licdn.com/dms/image/D4E03AQHCIfkZE-wCMA/profile-displayphoto-shrink_200_200/0/1710697206134?e=1720656000&v=beta&t=UlWXGrpsVIy4L_BTQgve95zK0MHqXjX2mvQDN721Nfo",
-    gender: "male",
-    devices: "MAC",
-    xp: 0,
-    currentlyWorkingOn: 34,
   },
   {
     name: "Dante 'Donny' Angerame",
