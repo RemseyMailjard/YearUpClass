@@ -34,7 +34,7 @@ let students = [
     linkedin: "https://www.linkedin.com/in/dante-angerame-739899192/",
     email: "dangerame@appdev.yearup.org",
     nickname: "The Woodchuck",
-    imageUrl: "https://a-z-animals.com/media/2021/10/groundhog-1024x535.jpg",
+    imageUrl: "img/Avatar_Student_Male.jpg",
     gender: "male",
     xp: 0,
     currentlyWorkingOn: 32,

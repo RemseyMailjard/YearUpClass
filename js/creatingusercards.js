@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-// DOM elements
+  // DOM elements
   const userCardsContainer = document.getElementById("user-cards");
   const nameFilterInput = document.getElementById("nameFilter");
   const searchButton = document.getElementById("searchButton");
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", function () {
       card.className = "col-md-4 mb-4";
       card.innerHTML = `
         <div class="card">
-          <img src="${user.imageurl}" class="card-img-top" alt="Profile image of ${user.name}">
+          <img src="${user.imageUrl}" class="card-img-top" alt="Profile image of ${user.name}">
           <div class="card-body">
             <h5 class="card-title">${user.name}</h5>
             <p class="card-text">${user.nickname}</p>
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function updateXP(students) {
     students.forEach((student) => {
       let pageNumber = parseInt(student.currentlyWorkingOn);
-      student.xp = !isNaN(pageNumber) ? 10 * pageNumber :0;
+      student.xp = !isNaN(pageNumber) ? 10 * pageNumber : 0;
     });
   }
 
