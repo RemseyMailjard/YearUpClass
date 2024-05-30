@@ -1,5 +1,4 @@
 let students = [
- 
   {
     name: "Brett Spokes",
     group: "App Dev Team",
@@ -8,7 +7,7 @@ let students = [
     email: "bspokes@appdev.yearup.org",
     nickname: "Any Key",
     imageUrl:
-      "https://media.licdn.com/dms/image/D4E03AQHsvMOXofd4eg/profile-displayphoto-shrink_800_800/0/1701278215042?e=1720656000&v=beta&t=W-I_I4aKUyVjcXNKc0lfkrP7ftWPD-fACwEE1NqLUlw",
+      "https://media.licdn.com/dms/image/D4E03AQHsvMOXofd4eg/profile-displayphoto-shrink_400_400/0/1701278215042?e=1722470400&v=beta&t=KVN23alt6xjixB3xlCNum6j26X4VRMmvCh6FdlsAFtM",
     gender: "male",
     devices: "Windows",
     xp: 0,
