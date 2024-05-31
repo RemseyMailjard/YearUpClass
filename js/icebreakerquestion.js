@@ -606,6 +606,10 @@ function generateIcebreaker() {
     {
       category: "Suggestions from Class",
       text: "What’s the worst piece of advice you’ve ever gotten?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "If I had to ask your best friend to describe you, what whould he or she say?",
     }
   ];
 
