@@ -143,7 +143,7 @@ let students = [
     email: "mmayo@appdev.yearup.org",
     nickname: "reference error",
     imageUrl:
-      "https://media.licdn.com/dms/image/D5635AQGJEoOx7l2_wg/profile-framedphoto-shrink_400_400/0/1668459290344?e=1715983200&v=beta&t=HUDrgjEalAYADICjvMh3t91vcTis3VBKVAUhR9FSgRk",
+      "https://media.licdn.com/dms/image/D5635AQGJEoOx7l2_wg/profile-framedphoto-shrink_400_400/0/1668459290344?e=1717758000&v=beta&t=QNYdhQR3JGI5E9wO_5NNojRCpuKU2hzjaiK1qXPLecI",
     gender: "male",
     xp: 0,
     currentlyWorkingOn: 50,
