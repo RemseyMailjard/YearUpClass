@@ -539,6 +539,74 @@ function generateIcebreaker() {
       category: "Suggestions from Class",
       text: "Do the '6 word memoir' challenge as standup - tell a 'story' about yourself in only 6 words",
     },
+    {
+      category: "Would You Rather",
+      text: "Would you rather spend a ride a rollercoaster or attend a jazz concert?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "Do the '6 word memoir' challenge as standup - tell a 'story' about yourself in only 6 words",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "What is your dream car and why?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "If a zombie apocalypse started today where would you go for safety?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "What are your Top 3 favorite TV shows?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "Come up with 5 words to describe your ideal future?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "What is a passion project website you would like to create once you feel like your skills are up to par? Tell us about some of the ideas and ambitions you have for it.",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "Where do you see yourself after 10 years?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "What is one spot outside the US you've gotten a chance to travel to?, how was the experience?",
+    },
+    {
+      category: "Would You Rather",
+      text: "Would you rather always have to say everything on your mind or never be able to speak again?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "If you could make a silly or wacky invention, what would it be?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "What’s your go-to karaoke song?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "What superpower do you wish you had? Flying, disappearing, reading people's minds, and why?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "What is your favorite cereal? And is cereal a soup?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "What is your idea of happiness?",
+    },
+    {
+      category: "About you",
+      text: "What are your Top 3 favorite TV shows?",
+    },
+    {
+      category: "Suggestions from Class",
+      text: "What’s the worst piece of advice you’ve ever gotten?",
+    }
   ];
 
   const selectedCategory = document.getElementById("categorySelect").value;
