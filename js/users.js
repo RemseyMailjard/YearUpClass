@@ -21,7 +21,7 @@ let students = [
     email: "asamatar@appdev.yearup.org",
     nickname: "luffy",
     imageUrl:
-      "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/12/luffy-with-his-straw-hat.jpg",
+      "https://media.licdn.com/dms/image/C4E03AQEoG-gPExm-cw/profile-displayphoto-shrink_400_400/0/1636537401196?e=1722470400&v=beta&t=oWyYB2HE-iAtcSCylDAeUmEvZY0nEeqGI6Na1fQT6d8",
     gender: "male",
     devices: "Windows",
     xp: 0,
@@ -245,8 +245,7 @@ let students = [
     linkedin: "https://www.linkedin.com/in/andrea-irary/",
     email: "iraryc@gmail.com",
     nickname: "Kung Fu Koder",
-    imageUrl:
-      "https://media.licdn.com/dms/image/D5635AQEGBhG_qU_xJw/profile-framedphoto-shrink_400_400/0/1711041596221?e=1715983200&v=beta&t=3_LMe7iPRKe-cq6GHvXFEgnWp9Q_5HiY2XaDrFg_3EM",
+    imageUrl: "https://avatars.githubusercontent.com/u/111704084?v=4",
     gender: "female",
     xp: 0,
     currentlyWorkingOn: 39,
