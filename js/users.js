@@ -77,7 +77,7 @@ let students = [
       "https://media.licdn.com/dms/image/D4E03AQFN9jSMTdbzDA/profile-displayphoto-shrink_400_400/0/1715103915979?e=1720656000&v=beta&t=5QnIvkUZJ9RX9KlBJbEPdKgv95eNmlrGAiDgvYd9k8A",
     devices: "MAC",
     gender: "male",
-    xp: 0,
+    xp: 30,
     currentlyWorkingOn: 31,
     personalWebpage: "/jesus.html",
   },
@@ -184,7 +184,7 @@ let students = [
     imageUrl: "https://fakeimg.pl/400x400/120707/40b2eb?text=Rene+B",
     gender: "male",
     personalWebpage: "rene.html",
-    xp: 0,
+    xp: 5,
     currentlyWorkingOn: 30,
   },
   {
@@ -247,7 +247,7 @@ let students = [
     nickname: "Kung Fu Koder",
     imageUrl: "https://avatars.githubusercontent.com/u/111704084?v=4",
     gender: "female",
-    xp: 0,
+    xp: 10,
     currentlyWorkingOn: 39,
   },
 ];
