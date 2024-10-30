@@ -1,51 +1,39 @@
 function updateClock() {
   var now = new Date();
-  var phoenixTime = new Date(
-    now.getUTCFullYear(),
-    now.getUTCMonth(),
-    now.getUTCDate(),
-    now.getUTCHours() - 7,
-    now.getUTCMinutes(),
-    now.getUTCSeconds()
-  );
-  var netherlandsTime = new Date(
-    now.getUTCFullYear(),
-    now.getUTCMonth(),
-    now.getUTCDate(),
-    now.getUTCHours() + 2,
-    now.getUTCMinutes(),
-    now.getUTCSeconds()
-  );
-  var panamaTime = new Date(
-    now.getUTCFullYear(),
-    now.getUTCMonth(),
-    now.getUTCDate(),
-    now.getUTCHours() - 5,
-    now.getUTCMinutes(),
-    now.getUTCSeconds()
-  );
 
-  document.getElementById("phoenixTime").textContent =
-    phoenixTime.toLocaleTimeString();
-  document.getElementById("panamaTime").textContent =
-    panamaTime.toLocaleTimeString();
+  // Create an options object to specify the time zones for Netherlands and Phoenix
+  var optionsNetherlands = { timeZone: "Europe/Amsterdam", hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+  var optionsPhoenix = { timeZone: "America/Phoenix", hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
 
-  // Adding the countdown display function
-  updateCountdown(phoenixTime);
+  // Format the time based on the specified time zones
+  var netherlandsTime = new Intl.DateTimeFormat('en-GB', optionsNetherlands).format(now);
+  var phoenixTime = new Intl.DateTimeFormat('en-US', optionsPhoenix).format(now);
 
+  // Update HTML elements with the formatted time
+  document.getElementById("netherlandsTime").textContent = netherlandsTime;
+  document.getElementById("phoenixTime").textContent = phoenixTime;
+
+  // Call the countdown function to update the countdown display
+  updateCountdown(now);
+
+  // Refresh the clock every second
   setTimeout(updateClock, 1000);
 }
 
-function updateCountdown(phoenixTime) {
-  const targetDate = new Date(phoenixTime.getFullYear(), 12, 20); // 20th of December... so fast
-  const timeDifference = targetDate - phoenixTime;
+function updateCountdown(currentTime) {
+  // Set target date to December 20 of the current year
+  const targetDate = new Date(currentTime.getFullYear(), 11, 20); // December is month 11
+
+  // Calculate the difference between the current time and the target date
+  const timeDifference = targetDate - currentTime;
 
   if (timeDifference > 0) {
     const totalDaysLeft = Math.ceil(timeDifference / (1000 * 60 * 60 * 24));
 
     let weekdaysLeft = 0;
-    let currentDate = new Date(phoenixTime);
+    let currentDate = new Date(currentTime);
 
+    // Loop to count weekdays only
     while (currentDate <= targetDate) {
       const dayOfWeek = currentDate.getDay();
       if (dayOfWeek !== 0 && dayOfWeek !== 6) {
@@ -72,3 +60,6 @@ function setup() {
     // Any additional cleanup tasks can be added here
   });
 }
+
+// Call the setup function when the page loads
+window.onload = setup;
