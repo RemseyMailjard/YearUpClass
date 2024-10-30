@@ -37,7 +37,7 @@ function updateClock() {
 }
 
 function updateCountdown(phoenixTime) {
-  const targetDate = new Date(phoenixTime.getFullYear(), 5, 28); // June 28th of the current year
+  const targetDate = new Date(phoenixTime.getFullYear(), 12, 20); // 20th of December... so fast
   const timeDifference = targetDate - phoenixTime;
 
   if (timeDifference > 0) {
